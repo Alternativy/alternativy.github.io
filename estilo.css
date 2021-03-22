@@ -32,7 +32,9 @@ body{
 }
 li{
 	margin-left: 100px;
+	padding: 5px;
 }
 audio{
 	outline: solid 3px  #075E54;
+	margin-left: 100px;
 }
