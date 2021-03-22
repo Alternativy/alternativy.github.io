@@ -1,1 +1,38 @@
-
+* {
+font-family: sans-serif;
+}
+i {
+font-family: serif;
+}
+h1 {
+	background-color: #075E54;
+	color: white;
+	margin: 0px;
+	text-align: left;
+}
+h2 {
+	background-color: #075E54;
+	color: white;
+	margin: 0px;
+	text-align: left;
+	padding-bottom: 20px;
+	padding-left: 31px;
+}
+h1 {
+	padding: 30px;
+}
+h1{
+	margin-top: 0px;
+}
+body{
+	background-color: #f0f0f0;
+}
+body{
+	margin: 0px;
+}
+li{
+	margin-left: 100px;
+}
+audio{
+	outline: solid 3px  #075E54;
+}
