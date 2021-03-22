@@ -35,7 +35,17 @@ li{
 	margin-left: 100px;
 	padding: 5px;
 }
-audio{
+li{
+/*	outline: solid 3px  #075E54;*/
+	margin-left: 100px;
+}
+legend{
 	outline: solid 3px  #075E54;
 	margin-left: 100px;
+  background-color: #075E54;
+  color: white;
+  padding: 5px 10px;
+}
+p{
+	padding-left: 38px
 }
