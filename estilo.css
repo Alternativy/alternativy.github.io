@@ -35,13 +35,9 @@ li{
 	margin-left: 100px;
 	padding: 5px;
 }
-li{
-/*	outline: solid 3px  #075E54;*/
-	margin-left: 100px;
-}
 fieldset{
 	border-color: #dcf8c6;
-	border-radius: 0px 20px 20px 20px;
+	border-radius: 20px 20px 20px 0px;
 	background-color: #dcf8c6;
 	box-shadow: 0 0 10px;
 	margin-right: 100px;
@@ -54,7 +50,7 @@ legend{
  	background-color: #075E54;
  	color: white;
  	padding: 5px 10px;
- 	border-radius: 50px 0px 50px 0px;
+ 	border-radius: 50px 50px 50px 0px;
 }
 p{
 	padding-left: 38px
@@ -86,4 +82,17 @@ h3{
 	text-align: center;
 	border-width: 1px;
 	background-color: #e0f1fa;
+}
+ul{
+	padding-left: 0px;
+	margin-right: 10px;
+	margin-top:10px;
+	margin-left: 100px;
+	padding-left: 50px;
+	background-color: #ffffff;
+	text-align: left;
+	border-width: 1px;
+	border-radius:20px 20px 0px 20px;
+	border-style: groove;
+	box-shadow: 0 0 10px;
 }
