@@ -104,6 +104,7 @@ p{
 
 a{
 	font-weight: bold;
+	font-size: 150%;
 }
 
 /*header, nav and content in "alfabetico.html*/
@@ -164,8 +165,16 @@ article h1{
 	background-color: #075E54;
 	height: 45px;
 	color: rgb(255, 255, 255);
-	width: 450px;
+	width: 400px;
 	line-height: 10px;
 	vertical-align: super;
 	border-style: solid;
+	border-radius: 50px;
+}
+body{
+	max-width: 100%;
+}
+button:hover{
+	background-color: #075F21;
+	border-color: skyblue;
 }
