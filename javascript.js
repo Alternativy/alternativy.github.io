@@ -177,6 +177,15 @@ null,
 ];
 
 // sonido.src="abris_alternativy.ogg";
+// let total=170;
+// let random = Math.round(Math.random()*total);
+// console.log(random);
+// console.log('"'+archivos[random]+'"');
+// let resultado = archivos[random];
+// console.log(resultado);
+// let sonido = new Audio();
+// sonido.src=resultado;
+function getRandom(){
 let total=170;
 let random = Math.round(Math.random()*total);
 console.log(random);
@@ -185,8 +194,8 @@ let resultado = archivos[random];
 console.log(resultado);
 let sonido = new Audio();
 sonido.src=resultado;
-
-
+sonido.play();
+};
 // let audioRandom = new Audio();
 // audioRandom = "'"+archivos[random]+"'"
 // console.log(audioRandom)
