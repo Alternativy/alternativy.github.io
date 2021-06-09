@@ -156,4 +156,16 @@ article h1{
 	margin: 5px;
 	border-radius: 1px;
 	border: solid;
+} 
+.button{
+	padding: 10px;
+	margin: 50px;
+	border-radius: 0px;
+	background-color: #075E54;
+	height: 45px;
+	color: rgb(255, 255, 255);
+	width: 450px;
+	line-height: 10px;
+	vertical-align: super;
+	border-style: solid;
 }
