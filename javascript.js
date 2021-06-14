@@ -1,5 +1,5 @@
 console.log("ta linkeado master")
-archivos=
+let archivos=
 [
 null,
 "abduzcan_eze.ogg",
@@ -28,7 +28,6 @@ null,
 "bueno_monti.ogg",
 "bueno_produ.ogg",
 "caballo_cele.ogg",
-"calamardo_sticker.mpeg",
 "calamardo_sticker.ogg",
 "callate_otros.ogg",
 "callate_produ.ogg",
@@ -173,7 +172,7 @@ null,
 "vieja_otros.ogg",
 "wey_sheky.ogg",
 "wtf_otros.ogg",
-"zanganos_fabi.ogg",
+"zanganos_fabi.ogg"
 ];
 
 // sonido.src="abris_alternativy.ogg";
@@ -185,8 +184,9 @@ null,
 // console.log(resultado);
 // let sonido = new Audio();
 // sonido.src=resultado;
+console.log(archivos.length)
 function getRandom(){
-let total=170;
+let total=archivos.length-1;
 let random = Math.round(Math.random()*total);
 console.log(random);
 console.log('"'+archivos[random]+'"');
@@ -196,6 +196,14 @@ let sonido = new Audio();
 sonido.src=resultado;
 sonido.play();
 };
+
+// console.log(archivos.length)
+// console.log(archivos.includes("Alternativy"))
+// console.log(archivos.forEach(element => {   
+// });)
+// if (archivos.includes("alternativy"))
+// console.log()
+
 // let audioRandom = new Audio();
 // audioRandom = "'"+archivos[random]+"'"
 // console.log(audioRandom)
