@@ -40,6 +40,16 @@ b{
 	line-height: 100px;
 }
 /*nav*/
+nav{
+	text-align: center;
+	background-color: #ffffff;
+	border-style: ridge;
+	border-width: 1px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	box-shadow: 0px 0px 5px 0px;
+}
 i{
 	font-family: serif;
 	font-weight: bolder;
@@ -78,10 +88,9 @@ li{
 /*content*/
 
 fieldset{
-	border-color: #dcf8c6;
 	border-radius: 20px 20px 20px 0px;
 	background-color: #dcf8c6;
-	box-shadow: 0 0 10px;
+	box-shadow: 0 0 5px;
 	margin-right: 100px;
 	margin-bottom: 5px;
 }
@@ -105,6 +114,8 @@ p{
 a{
 	font-weight: bold;
 	font-size: 150%;
+	text-decoration: none;
+	color: rgb(15, 15, 15);
 }
 
 /*header, nav and content in "alfabetico.html*/
