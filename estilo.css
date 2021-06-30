@@ -36,7 +36,6 @@ img{
 	vertical-align: sub;
 }
 b{
-	vertical-align: center;
 	line-height: 100px;
 }
 /*nav*/
@@ -76,7 +75,6 @@ small{
 	border-color: #075E54;
 	border-radius: 50px;
 	border-style: solid;
-	vertical-align:14px;
 }
 
 /*nav and content*/
