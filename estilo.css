@@ -33,7 +33,7 @@ img{
 	border-radius: 500px;
 	width: 64px;
 	height: 64px;
-	vertical-align: sub;
+	vertical-align: middle;
 }
 b{
 	line-height: 100px;
@@ -75,6 +75,7 @@ small{
 	border-color: #075E54;
 	border-radius: 50px;
 	border-style: solid;
+	vertical-align:middle;
 }
 
 /*nav and content*/
