@@ -76,6 +76,7 @@ small{
 	border-color: #075E54;
 	border-radius: 50px;
 	border-style: solid;
+	vertical-align:center;
 }
 
 /*nav and content*/
