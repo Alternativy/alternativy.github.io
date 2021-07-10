@@ -15,7 +15,6 @@ h1 {
 	background-color: #075E54;
 	color: white;
 	margin: 0px;
-	text-align: left;
 	padding-left: 30px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -49,6 +48,27 @@ nav{
 	border-right: none;
 	border-left: none;
 	box-shadow: 0px 0px 5px 0px;
+}
+/*buscador alfabeticico*/
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+	display: flex;
+	justify-content: space-around;
+}
+/*pal responsive*/
+@media(max-width: 600px){
+	nav{
+		overflow-x: scroll;
+		justify-content: normal;
+	}
+	a{
+		padding-left: 3%;
+		padding-right: 3%;
+	}
 }
 i{
 	font-family: serif;
@@ -154,13 +174,6 @@ h3{
 	border-width: 1px;
 	background-color: #e0f1fa;
 }
-nav {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0px;
-	width: 100%;
-	z-index: 100;
-}
 /*
 ol{
 	width: 60%;
@@ -171,8 +184,8 @@ article h1{
 	margin: 5px;
 	border-radius: 1px;
 	border: solid;
-} 
-.button{
+}
+/*.button{
 	padding: 10px;
 	margin: 50px;
 	border-radius: 0px;
@@ -184,11 +197,16 @@ article h1{
 	vertical-align: super;
 	border-style: solid;
 	border-radius: 50px;
-}
+}*/
 body{
 	max-width: 100%;
 }
+/*no hace falta porque fue reemplazado
 button:hover{
 	background-color: #075F21;
 	border-color: skyblue;
+}
+*/
+.RandomAudio{
+	cursor: pointer;
 }
