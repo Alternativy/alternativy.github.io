@@ -1,11 +1,12 @@
 console.log("ta linkeado master")
 let archivos=
 [
-null,
+//null,
 "abduzcan_eze.ogg",
 "abris_alternativy.ogg",
 "actualizando_sheky.ogg",
 "alfombra_produ.ogg",
+"amogus_otros.ogg",
 "amor_vargas.ogg",
 "anal_sheky.ogg",
 "angular_alternativy_trucha.ogg",
@@ -39,8 +40,10 @@ null,
 "charly_sheky.ogg",
 "chau_negro.ogg",
 "chicato_alternativy.ogg",
+"chiste_renzo.ogg",
 "clase_vargas.ogg",
 "confirmo_juma.ogg",
+"contexto_negro.ogg",
 "copado_lucio.ogg",
 "creador_renzo.ogg",
 "culo_fabi.ogg",
@@ -73,6 +76,7 @@ null,
 "futbol_otros.ogg",
 "futuro_sheky.ogg",
 "gargara_renzo.ogg",
+"garompa_santi.ogg",
 "gasti_sheky.ogg",
 "gatitos_fabi.ogg",
 "gatos_renzo.ogg",
@@ -90,8 +94,10 @@ null,
 "huevo_lucio.ogg",
 "inutil_renzo.ogg",
 "joda_produ.ogg",
+"karma_produ.ogg",
 "luna_otros.ogg",
 "malisimo_otros.ogg",
+"mandale_renzo.ogg",
 "manguito_alternativy.ogg",
 "maquina_fabi.ogg",
 "matar_fabi.ogg",
@@ -125,6 +131,7 @@ null,
 "pata_fabi.ogg",
 "patin_sheky.ogg",
 "pelotudo_otros.ogg",
+"perdimos_lucio.ogg",
 "perdon_produ.ogg",
 "perturbador_otros.ogg",
 "pinza_dug.ogg",
@@ -139,7 +146,9 @@ null,
 "reglas_alternativy.ogg",
 "reirme_produ.ogg",
 "remate_otros.ogg",
+"resumen_alternativy.ogg",
 "resumen_peligro.ogg",
+"resumen_sheky.ogg",
 "risa_fabi.ogg",
 "risa_sheky.ogg",
 "ruta_sheky.ogg",
@@ -155,6 +164,7 @@ null,
 "skry_otros.ogg",
 "sonido_eze.ogg",
 "sorete_renzo.ogg",
+"texto_negro.ogg",
 "tiago_alternativy.ogg",
 "titan_fabi.ogg",
 "toyota_eze.ogg",
@@ -174,6 +184,14 @@ null,
 "wtf_otros.ogg",
 "zanganos_fabi.ogg"
 ];
+//bucle que divide a los elementos y devuelve una cuenta de cuanto se repite
+for (let i = 0; i < archivos.length; i++) {
+	const element = archivos[i];
+	let splited = element.split("_");
+	console.count(splited[1])
+};
+
+//let archivosFabi = archivos.filter(archivo => archivo == "fabi.ogg")
 
 // sonido.src="abris_alternativy.ogg";
 // let total=170;
@@ -186,17 +204,16 @@ null,
 // sonido.src=resultado;
 console.log(archivos.length)
 function getRandom(){
-let total=archivos.length-1;
-let random = Math.round(Math.random()*total);
-console.log(random);
-console.log('"'+archivos[random]+'"');
-let resultado = archivos[random];
-console.log(resultado);
-let sonido = new Audio();
-sonido.src=resultado;
-sonido.play();
+	let total=archivos.length-1;
+	let random = Math.round(Math.random()*total);
+	console.log(random);
+	console.log('"'+archivos[random]+'"');
+	let resultado = archivos[random];
+	console.log(resultado);
+	let sonido = new Audio();
+	sonido.src=resultado;
+	sonido.play();
 };
-
 // console.log(archivos.length)
 // console.log(archivos.includes("Alternativy"))
 // console.log(archivos.forEach(element => {   
